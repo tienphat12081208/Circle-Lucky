@@ -1,0 +1,149 @@
+.circle-lucky{
+    margin: 5% 33%;
+}
+
+.img-circle-lucky{
+    position: absolute;
+    width: 560px;
+    height: 560px;
+}
+.box-circle-luckky{
+    position: relative;
+}
+
+.img-press_circle{
+    position: absolute;
+    width: 140px;
+    height: 150px;
+    z-index: 10;
+    top:200px;
+    left: 210px;
+}
+.title-circle-lucky{
+    padding: 0% 0% 0% 10%;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.content-circle-lucky{
+    padding: 0% 0% 0% 42%;
+    color: red;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+
+
+/* Press Circe Lucky */
+
+
+/* Standard syntax */ 
+@keyframes xoayvong {
+    from{
+        -webkit-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+        -o-transform:rotate(0deg);
+    }
+    to{
+        -webkit-transform:rotate(360deg);
+        -moz-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+    }
+}
+
+.press_circle{
+    animation: xoayvong 0.5s linear 1s infinite;
+    -webkit-animation: xoayvong 0.5s linear 1s infinite;
+    -moz-animation: xoayvong 0.5s linear 1s infinite;
+    -o-animation: xoayvong 0.5s linear 1s infinite; 
+}
+
+.press_circle_stop10k{
+    transform: rotate(115deg);
+    -moz-transform: rotate(115deg);
+    -webkit-transform: rotate(115deg);
+    -o-transform: rotate(115deg);
+    -ms-transform: rotate(115deg);
+}
+
+.press_circle_stop5k{
+    transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+}
+
+.press_circle_stop2k{
+    transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+}
+
+.press_circle_stop0k{
+    transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+}
+
+.press_circle_stop20k{
+    transform: rotate(-125deg);
+    -moz-transform: rotate(-125deg);
+    -webkit-transform: rotate(-125deg);
+    -o-transform: rotate(-125deg);
+    -ms-transform: rotate(-125deg);
+}
+
+.press_circle_stop1k{
+    transform: rotate(175deg);
+    -moz-transform: rotate(175deg);
+    -webkit-transform: rotate(175deg);
+    -o-transform: rotate(175deg);
+    -ms-transform: rotate(175deg);
+}
+
+@media only screen and (max-width: 620px) {
+    .circle-lucky{
+        margin: 0px 0px;
+        padding: 3% 2%;
+    }
+    .title-circle-lucky{
+        padding: 0% 0% 0% 5%;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-bottom: 2px;
+    }
+    
+    .content-circle-lucky{
+        padding: 0% 0% 0% 30%;
+        color: red;
+        font-size: 10px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    .img-circle-lucky{
+        position: absolute;
+        width: 320px;
+        height: 320px;
+    }
+    .box-circle-luckky{
+        position: relative;
+    }
+    
+    .img-press_circle{
+        position: absolute;
+        width: 85px;
+        height: 90px;
+        z-index: 10;
+        top:110px;
+        left: 118px;
+    }
+    
+}
